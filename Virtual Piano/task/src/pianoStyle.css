@@ -1,0 +1,79 @@
+html{
+    background: darkslategray;
+}
+.container{
+    /*display: flex;
+    text-align: center;*/
+    margin: auto;
+    margin-top: 21vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+}
+.black-keys{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1.5px;
+    margin-left: 6.75vw;
+
+
+}
+.black-keys kbd {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background: black;
+    display: inline-block;
+    width: 3vw;
+    height: 12vw;
+    border: solid grey;
+    padding: 1.5vw 14px 1.5vw;
+    font-family: "Roboto", sans-serif;
+
+
+}
+#Wk{
+    margin-right: 4.5vw;
+}
+#Ek{
+    margin-right: 14.5vw;
+}
+#Tk{
+    margin-right: 4.5vw;
+}
+#Yk{
+    margin-right: 4.5vw;
+}
+#Uk{
+
+}
+
+.white-keys{
+    display: flex;
+    text-align: center;
+
+
+}
+.white-keys kbd {
+    font-family: "Roboto", sans-serif;
+
+    color: black;
+    background: white;
+    display: inline-block;
+    width: 9vw;
+    height: 27vw;
+    border: solid grey;
+    padding: 4.5vw 3vw 1vw;
+
+
+
+}
+
+
+
+
+
+
+
